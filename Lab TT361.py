@@ -1,4 +1,4 @@
-def selection_sort(arr):
+def sortavorum(arr):
     n = len(arr)
     for i in range(n):
         min_index = i
@@ -13,5 +13,6 @@ for i in range(n):
     num = int(input(f'Tveq element {i + 1}: '))
     l1.append(num)
 
-selection_sort(l1)
+sortavorum(l1)
 print('Dasavorvac list@: ', l1)
+
